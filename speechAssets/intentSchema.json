@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.YesIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.NoIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": []
+    },
+    {
+      "intent": "StartNewGameIntent",
+      "slots": []
+    },
+    {
+      "intent": "ColorIntent",
+      "slots": [{
+        "name": "Color",
+        "type": "LITERAL"
+      }]
+    }
+  ]
+}

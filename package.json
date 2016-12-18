@@ -1,0 +1,23 @@
+{
+  "name": "ask-hackernews",
+  "version": "0.0.1",
+  "description": "The Hacker News Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/*.js"
+  },
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "intent-utterance-expander": "0.0.4",
+    "intent-utterance-generator": "0.0.2",
+    "lodash": "^3.10.1",
+    "permutation": "0.0.1",
+    "pluralize": "^1.2.1",
+    "q": "^1.4.1",
+    "simonsays": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
